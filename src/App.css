@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+div{
+  padding: 10;
+}
+
+select{
+  padding: 5px;
+}
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color:	#f9f9f9; 
+  border-radius: 5%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top:35px;
+  
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4285F4;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5292f9;
+  transition: ease-in-out 0.07s ;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #3d8b41;
+}
